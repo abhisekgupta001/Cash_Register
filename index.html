@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cash Register Manager 💸</h1>
+      <div class="bill-div">
+        <h3>Bill Amount</h3>
+        <input
+          type="number"
+          name="bill"
+          id="bill"
+          placeholder="Enter the bill amount"
+          required
+        />
+        <button id="btnNext" class="btn">Next</button>
+      </div>
+      <div class="cash-div">
+        <h3>Cash Given</h3>
+        <input
+          type="number"
+          name="cash"
+          id="cash"
+          placeholder="Enter cash given by Customer"
+          required
+        />
+      </div>
+      <button id="btnCheck" class="btn">Check</button>
+
+      <div class="notes-output">
+        <h3>Return Change as:</h3>
+        <h2 class="output-message" id="output-message"></h2>
+        <table></table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -4,7 +4,7 @@ var btnCheck = document.getElementById("btnCheck");
 var cashDiv = document.querySelector(".cash-div");
 var btnNext = document.getElementById("btnNext");
 var notesOutput= document.querySelector(".notes-output");
-var outputMessage = document.getElementById("output-message");
+var outputMessage = document.querySelector("#output-message");
 
 var bill = 0;
 var cash = 0;
